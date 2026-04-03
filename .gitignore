@@ -27,6 +27,22 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Private keys and certificates — never commit
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cert
+
+# Environment files — may contain AWS keys, tokens, passwords
+.env
+.env.*
+
+# AWS credentials if accidentally copied here
+credentials
+*credentials*
+
 # OS noise
 .DS_Store
 Thumbs.db
