@@ -33,3 +33,7 @@
 
 # YOUR OBSERVATIONS:
 # (write what you saw here after running the commands)
+# I ran terraform it said terraform initialized in an empty directory 
+# and I can start working by making terraform configuration file
+# also no folders are created
+

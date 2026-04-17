@@ -53,14 +53,14 @@
 
 ### 4. Terraform CLI — init, plan, apply, destroy, fmt, validate
 
-- [ ] Task 1: Run `terraform init` in a directory with no `.tf` files. Read the output and understand what it's doing (or not doing).
-- [ ] Task 2: Run `terraform fmt -recursive` on a directory with poorly formatted files. Observe which files were changed.
-- [ ] Task 3: Run `terraform validate` on a valid config. Then introduce an error and run it again. Compare the outputs.
-- [ ] Task 4: Run `terraform plan` and save the output to a file using `-out=tfplan`. Inspect the file with `terraform show tfplan`.
-- [ ] Task 5: Apply using a saved plan file: `terraform apply tfplan`. Understand why this is safer than `terraform apply` directly.
-- [ ] Task 6: Run `terraform plan -target=aws_s3_bucket.main` on a config with multiple resources. Observe that only the targeted resource is planned.
-- [ ] Task 7: Run `terraform apply` with the `-var` flag to pass a variable inline. Verify it overrides any default.
-- [ ] Task 8: Run `terraform destroy` on a config with two resources. Observe the destruction order — Terraform respects dependency graphs in reverse.
+- [x] Task 1: Run `terraform init` in a directory with no `.tf` files. Read the output and understand what it's doing (or not doing).
+- [x] Task 2: Run `terraform fmt -recursive` on a directory with poorly formatted files. Observe which files were changed.
+- [x] Task 3: Run `terraform validate` on a valid config. Then introduce an error and run it again. Compare the outputs.
+- [x] Task 4: Run `terraform plan` and save the output to a file using `-out=tfplan`. Inspect the file with `terraform show tfplan`.
+- [x] Task 5: Apply using a saved plan file: `terraform apply tfplan`. Understand why this is safer than `terraform apply` directly.
+- [x] Task 6: Run `terraform plan -target=aws_s3_bucket.main` on a config with multiple resources. Observe that only the targeted resource is planned.
+- [x] Task 7: Run `terraform apply` with the `-var` flag to pass a variable inline. Verify it overrides any default.
+- [x] Task 8: Run `terraform destroy` on a config with two resources. Observe the destruction order — Terraform respects dependency graphs in reverse.
 - [ ] Task 9: Run `terraform output` after an apply with defined outputs. Then run `terraform output <output_name>` to get a single value.
 - [ ] Task 10: Run `terraform version`. Then run `terraform providers`. Understand what each command tells you and when you'd use them.
 

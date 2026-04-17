@@ -37,14 +37,14 @@
 10. **[DONE] Security Group:** Write a full `aws_security_group` with multiple `ingress` and `egress` nested blocks. Apply, verify, destroy.
 
 ## 4. Terraform CLI
-1. **[ ] Init empty dir:** Run `terraform init` in a directory with no `.tf` files. Read the output.
-2. **[ ] fmt recursive:** Run `terraform fmt -recursive` on a directory with poorly formatted files. Observe which files changed.
-3. **[ ] Validate comparison:** Run `terraform validate` on a valid config. Introduce an error. Compare both outputs.
-4. **[ ] Plan to file:** Run `terraform plan -out=tfplan`. Inspect it with `terraform show tfplan`.
-5. **[ ] Apply from plan:** Run `terraform apply tfplan`. Understand why this is safer than a direct apply.
-6. **[ ] Plan target:** Run `terraform plan -target=<resource>` on a multi-resource config. Observe what's scoped.
-7. **[ ] Inline var:** Run `terraform apply -var="key=value"`. Verify it overrides the default.
-8. **[ ] Destroy order:** Run `terraform destroy` on a multi-resource config. Observe the destruction order.
+1. **[DONE] Init empty dir:** Run `terraform init` in a directory with no `.tf` files. Read the output.
+2. **[DONE] fmt recursive:** Run `terraform fmt -recursive` on a directory with poorly formatted files. Observe which files changed.
+3. **[DONE] Validate comparison:** Run `terraform validate` on a valid config. Introduce an error. Compare both outputs.
+4. **[DONE] Plan to file:** Run `terraform plan -out=tfplan`. Inspect it with `terraform show tfplan`.
+5. **[DONE] Apply from plan:** Run `terraform apply tfplan`. Understand why this is safer than a direct apply.
+6. **[DONE] Plan target:** Run `terraform plan -target=<resource>` on a multi-resource config. Observe what's scoped.
+7. **[DONE] Inline var:** Run `terraform apply -var="key=value"`. Verify it overrides the default.
+8. **[DONE] Destroy order:** Run `terraform destroy` on a multi-resource config. Observe the destruction order.
 9. **[ ] Output commands:** Run `terraform output` and `terraform output <name>`. Understand the difference.
 10. **[ ] version + providers:** Run `terraform version` and `terraform providers`. Know what each tells you.
 
